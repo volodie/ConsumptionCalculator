@@ -1,8 +1,8 @@
 ﻿namespace FuelMachine
 {
-    internal class CalculateСonsumption
+    static class CalculateСonsumption
     {
-        public decimal Calculate(int townKoeff, int airKoeff, int fuel2Koeff, decimal cons, int millage)
+        public static decimal Calculate(int townKoeff, int airKoeff, int fuel2Koeff, decimal cons, int millage)
         {
             var c1 = cons * townKoeff / 100;
             var c2 = cons * airKoeff / 100;
